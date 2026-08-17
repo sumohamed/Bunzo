@@ -1,0 +1,25 @@
+.grid {
+	display: grid;
+	gap: var(--space-6);
+}
+
+.grid-2 {
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(min(calc(100% - 2em), 18em), 1fr)
+	);
+}
+
+.grid-3 {
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(min(calc(100% - 2em), 18em), 1fr)
+	);
+}
+
+.grid-4 {
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(min(calc(100% - 2em), 12em), 1fr)
+	);
+}
